@@ -23,17 +23,17 @@ function Layout() {
         <NavBar />
         <Row>
             <Col span={12}>
-                <div className="ml-20">
+                <div className="ml-44 mt-24">
                     <div>
-                        <h1 className="text-3xl font-xl">Managing business <br /> payments has never <br /> been easier</h1>
-                        <p className="text-md">
+                        <h1 className="text-4xl font-xl">Managing business <br /> payments has never <br /> been easier</h1>
+                        <p className="text-xl">
                             End-to-end payments and financial management <br/> in a single solution. Meet the right platform to help <br/> realize.
                         </p>
                     </div>
                     <div className="flex flex-row">
-                        <Button buttonStyle="justify-center w-32 h-12 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
+                        <Button buttonStyle="justify-center text-xl w-56 h-14 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
                         <span className="ml-2 flex flex-col">
-                            <img src={GreenPlayIcon} alt="icon" className="w-36 h-32" />
+                            <img src={GreenPlayIcon} alt="icon" className="w-56 h-52" />
                         </span>
                     </div>
                 </div>
@@ -46,12 +46,12 @@ function Layout() {
         <Row>
             <div className="w-full"><p className="text-lg text-center">Over 32k+ software  businesses growing with AR Shakir</p></div>
             <div className="w-full flex flex-row items-center justify-center mb-8">
-                <img className="ml-8 w-20" src={OpenZIcon} alt="icon" />
-                <img className="ml-8 w-20" src={OracleIcon} alt="icon" />
-                <img className="ml-8 w-20" src={MorpheusIcon} alt="icon" />
-                <img className="ml-8 w-20" src={SamsungIcon} alt="icon" />
-                <img className="ml-8 w-20" src={MondayIcon} alt="icon" />
-                <img className="ml-8 w-20" src={SegmentIcon} alt="icon" />
+                <img className="ml-24 w-28" src={OpenZIcon} alt="icon" />
+                <img className="ml-24 w-28" src={OracleIcon} alt="icon" />
+                <img className="ml-24 w-28" src={MorpheusIcon} alt="icon" />
+                <img className="ml-24 w-28" src={SamsungIcon} alt="icon" />
+                <img className="ml-24 w-28" src={MondayIcon} alt="icon" />
+                <img className="ml-24 w-28" src={SegmentIcon} alt="icon" />
             </div>
         </Row>
 
@@ -60,62 +60,60 @@ function Layout() {
                 <img src={IllustrationImage} alt="pics" />
             </Col>
             <Col span={12}>
-                <div className="ml-0">
+                <div className="ml-0 mt-20">
                     <div>
-                        <a href="#" className="text-md">
+                        <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-3xl font-xl mt-3">Receive payments <br/> quickly from anywhere</h1>
-                        <p className="text-md">
+                        <h1 className="text-4xl font-xl font-xl mt-3">Receive payments <br/> quickly from anywhere</h1>
+                        <p className="text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
                     </div>
                     <div className="flex flex-row">
-                        <Button buttonStyle="justify-center w-32 h-12 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
+                        <Button buttonStyle="justify-center text-xl w-56 h-14 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
                     </div>
                 </div>
             </Col>
         </Row>
 
-        <Row>
-            <Col span={13} className="bg-gray-200">
+        <Row className="w-10/12 border border-solid rounded-3xl bg-gray-200 ml-24">
+            <Col span={14}>
                 <div className="ml-20 mt-10">
                     <div>
-                        <a href="#" className="text-md">
+                        <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-3xl font-xl">Receive payments <br/> quickly from anywhere</h1>
-                        <p className="text-md">
+                        <h1 className="text-4xl font-xl pt-9">Receive payments <br/> quickly from anywhere</h1>
+                        <p className="text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
                     </div>
                 </div>
             </Col>
-            <Col span={11}>
-                <div className="p-8 bg-gray-200">
-                        <h1 className="text-lg text-blue-300">
+            <Col span={10}>
+                <div className="p-8 w-9/12">
+                        <h1 className="text-xl text-blue-300">
                             GET STARTED FOR FREE
                         </h1>
-                <form action="#" method="POST" className="border rounded-md ">
-                    <div className="shadow overflow-hidden sm:rounded-md">
-                    <div className="px-4 py-5 bg-white sm:p-6">
+                <form action="#" method="POST" className="p-0 m-0">
+                    <div className="py-5 bg-gray-200">
                         <div className="grid grid-cols-6 gap-6">
                         <div className="col-span-6">
-                            <label className="block text-sm font-medium text-gray-700">Phone Number</label>
-                            <input type="text" name="street-address" id="street-address" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                            <label className="block text-xl font-medium text-gray-700">Phone Number</label>
+                            <input type="text" name="name" id="name" className="mt-1 h-12 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                         </div>
 
                         <div className="col-span-6">
-                            <label className="block text-sm font-medium text-gray-700">Email Address</label>
-                            <input type="text" name="street-address" id="street-address" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                            <label className="block text-xl font-medium text-gray-700">Email Address</label>
+                            <input type="text" name="street-address" id="street-address" className="mt-1 h-12 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                         </div>
                         
                         <div className="col-span-6">
-                           <Button buttonStyle="w-full justify-center h-12 font-medium rounded-xl text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="GET STARTED" />
+                           <Button buttonStyle="w-full justify-center h-12 text-xl font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="GET STARTED" />
                         </div>
 
                         </div>
-                    </div>
                     </div>
                 </form>
                 </div>
@@ -126,18 +124,18 @@ function Layout() {
 
         <Row>
             <Col span={12}>
-                <div className="ml-20">
+                <div className="ml-40 mt-24">
                     <div>
-                        <a href="#" className="text-md">
+                        <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-3xl font-xl mt-3">All payments are <br/>linked to your Financy <br/>account</h1>
-                        <p className="text-md">
+                        <h1 className="text-4xl font-xl mt-3">All payments are <br/>linked to your Financy <br/>account</h1>
+                        <p className="text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
                     </div>
                     <div className="flex flex-row">
-                        <Button buttonStyle="justify-center w-32 h-12 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
+                        <Button buttonStyle="justify-center text-xl w-56 h-14 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
                     </div>
                 </div>
             </Col>
@@ -146,16 +144,59 @@ function Layout() {
             </Col>
         </Row>
 
-        <Row>
-            <div className="flex ml-20 w-10/12 justify-between items-center p-6 border rounded-md border-inherit">
+        <Row className="pb-32 p-20">
+            <div className="flex ml-20 w-11/12 justify-between items-center p-6 border rounded-md border-inherit">
                 <div>
-                    <p className="">And residence for met the estimable disposing. Mean if he they been no hold mr. Is<br/> at much do made took held help.</p>
+                    <p className="text-xl">And residence for met the estimable disposing. Mean if he they been no hold mr. Is<br/> at much do made took held help.</p>
                 </div>
                 <div>
-                    <Button buttonStyle="w-32 justify-self-end self-end h-10 font-medium rounded-3xl text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="Get Started" />
+                    <Button buttonStyle="text-xl w-56 h-14 justify-self-end self-end h-10 font-medium rounded-3xl text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="Get Started" />
                 </div>
             </div>
         </Row>
+
+        <Row className="bg-slate-900 text-white p-48 pl-24 pr-24">
+            <Col span={12}>
+                <h1 className="text-xl font-xl text-white">AR SHAKIR</h1>
+                <p className="text-md text-slate-500">Yet bed any for travelling assistance indulgence unpleasing. Not <br/> thoughts all exercise blessing. Indulgence way everything joy <br/> alteration boisterous the attachment.</p>
+            </Col>
+            <Col span={4}>
+                <h1 className="text-xl text-white font-xl">Company</h1>
+                <ul>
+                    <li className="text-md">About Us</li>
+                    <li className="text-md">Careers</li>
+                    <li className="text-md">Blog</li>
+                    <li className="text-md">Pricing</li>
+                </ul>
+            </Col>
+            <Col span={4}>
+                <h1 className="text-xl text-white font-xl">Product</h1>
+                <ul>
+                    <li className="text-md">Invoicing Platform</li>
+                    <li className="text-md">Accounting Platform</li>
+                    <li className="text-md">Create Proposal</li>
+                    <li className="text-md">Contacts</li>
+                </ul>
+            </Col>
+            <Col span={4}>
+                <h1 className="text-xl text-white font-xl">Resources</h1>
+                <ul>
+                    <li className="text-md">Proposal Template</li>
+                    <li className="text-md">Invoice Template</li>
+                    <li className="text-md">Tutorial</li>
+                    <li className="text-md">How to write a contract</li>
+                </ul>
+            </Col>
+
+        </Row>
+            <div className="flex border-t-2 border-gray-600 bg-slate-900 text-white justify-around items-center p-9">
+                <div>
+                <p className="m-0">2022 AR Shakir. All rights. --Privacy Policy- Terms of Services</p>
+                </div>
+                <div>
+                <p className="m-0">Supported by Microsoft Startup</p>
+                </div>
+            </div>
     </div>
   )
 }

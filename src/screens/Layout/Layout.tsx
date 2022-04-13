@@ -17,13 +17,13 @@ import MorpheusIcon from '../../assets/Group (3).png'
 import OracleIcon from '../../assets/Group (2).png'
 import OpenZIcon from '../../assets/Group (1).png'
 
-function Layout() {
+const Layout: React.FC = () => {
   return (
     <div>
         <NavBar />
         <Row>
-            <Col span={12}>
-                <div className="ml-44 mt-24">
+            <Col span={24} sm={12}>
+                <div className="ml-12 sm:ml-44 sm:mt-12">
                     <div>
                         <h1 className="text-4xl font-xl">Managing business <br /> payments has never <br /> been easier</h1>
                         <p className="text-xl">
@@ -38,29 +38,29 @@ function Layout() {
                     </div>
                 </div>
             </Col>
-            <Col span={12}>
+            <Col span={24} sm={12}>
                 <img src={HomeImage} alt="pics" />
             </Col>
         </Row>
 
         <Row>
             <div className="w-full"><p className="text-lg text-center">Over 32k+ software  businesses growing with AR Shakir</p></div>
-            <div className="w-full flex flex-row items-center justify-center mb-8">
-                <img className="ml-24 w-28" src={OpenZIcon} alt="icon" />
-                <img className="ml-24 w-28" src={OracleIcon} alt="icon" />
-                <img className="ml-24 w-28" src={MorpheusIcon} alt="icon" />
-                <img className="ml-24 w-28" src={SamsungIcon} alt="icon" />
-                <img className="ml-24 w-28" src={MondayIcon} alt="icon" />
-                <img className="ml-24 w-28" src={SegmentIcon} alt="icon" />
+            <div className="w-full grid grid-cols-2 mr-24 sm:flex items-center justify-center mb-8">
+                <img className="mt-3 ml-24 sm:w-28" src={OpenZIcon} alt="icon" />
+                <img className="mt-3 ml-24 sm:w-28" src={OracleIcon} alt="icon" />
+                <img className="mt-3 ml-24 sm:w-28" src={MorpheusIcon} alt="icon" />
+                <img className="mt-3 ml-24 sm:w-28" src={SamsungIcon} alt="icon" />
+                <img className="mt-3 ml-24 sm:w-28" src={MondayIcon} alt="icon" />
+                <img className="mt-3 ml-24 sm:w-28" src={SegmentIcon} alt="icon" />
             </div>
         </Row>
 
         <Row>
-            <Col span={12}>
+            <Col span={24} sm={12}>
                 <img src={IllustrationImage} alt="pics" />
             </Col>
-            <Col span={12}>
-                <div className="ml-0 mt-20">
+            <Col span={24} sm={12}>
+                <div className="ml-12 sm:ml-0 sm:mt-20">
                     <div>
                         <a href="#" className="text-xl">
                             OUR FEATURE
@@ -77,9 +77,9 @@ function Layout() {
             </Col>
         </Row>
 
-        <Row className="w-10/12 border border-solid rounded-3xl bg-gray-200 ml-24">
-            <Col span={14}>
-                <div className="ml-20 mt-10">
+        <Row className="ml-6 mt-6 w-11/12 sm:w-10/12 border border-solid rounded-3xl bg-gray-200 sm:ml-24">
+            <Col span={24} sm={14}>
+                <div className="ml-12 sm:ml-20 mt-10">
                     <div>
                         <a href="#" className="text-xl">
                             OUR FEATURE
@@ -91,8 +91,8 @@ function Layout() {
                     </div>
                 </div>
             </Col>
-            <Col span={10}>
-                <div className="p-8 w-9/12">
+            <Col span={24} sm={10}>
+                <div className="p-8 sm:w-9/12">
                         <h1 className="text-xl text-blue-300">
                             GET STARTED FOR FREE
                         </h1>
@@ -123,8 +123,8 @@ function Layout() {
         <Divider/>
 
         <Row>
-            <Col span={12}>
-                <div className="ml-40 mt-24">
+            <Col span={24} sm={12}>
+                <div className="ml-12 sm:ml-40 sm:mt-24">
                     <div>
                         <a href="#" className="text-xl">
                             OUR FEATURE
@@ -139,28 +139,28 @@ function Layout() {
                     </div>
                 </div>
             </Col>
-            <Col span={12}>
+            <Col span={24} sm={12}>
                 <img src={CardPlayIcon} alt="pics" />
             </Col>
         </Row>
 
-        <Row className="pb-32 p-20">
-            <div className="flex ml-20 w-11/12 justify-between items-center p-6 border rounded-md border-inherit">
+        <Row className="sm:pb-32 sm:p-20">
+            <div className="flex flex-col sm:flex-row ml-6 sm:ml-20 w-11/12 items-center p-6 border rounded-md border-inherit">
                 <div>
                     <p className="text-xl">And residence for met the estimable disposing. Mean if he they been no hold mr. Is<br/> at much do made took held help.</p>
                 </div>
-                <div>
-                    <Button buttonStyle="text-xl w-56 h-14 justify-self-end self-end h-10 font-medium rounded-3xl text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="Get Started" />
+                <div className="w-full sm:w-0">
+                    <Button buttonStyle="text-xl w-full sm:ml-12 sm:w-56 h-14 sm:justify-self-end self-end h-10 font-medium rounded-3xl text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" buttonText="Get Started" />
                 </div>
             </div>
         </Row>
 
-        <Row className="bg-slate-900 text-white p-48 pl-24 pr-24">
-            <Col span={12}>
+        <Row className="bg-slate-900 text-white p-16 sm:p-48 sm:pl-24 sm:pr-24">
+            <Col span={24} sm={12} className="mb-3 sm:mt-0">
                 <h1 className="text-xl font-xl text-white">AR SHAKIR</h1>
                 <p className="text-md text-slate-500">Yet bed any for travelling assistance indulgence unpleasing. Not <br/> thoughts all exercise blessing. Indulgence way everything joy <br/> alteration boisterous the attachment.</p>
             </Col>
-            <Col span={4}>
+            <Col span={24} sm={4} className="text-center mt-3 sm:mt-0 sm:text-left">
                 <h1 className="text-xl text-white font-xl">Company</h1>
                 <ul>
                     <li className="text-md">About Us</li>
@@ -169,7 +169,7 @@ function Layout() {
                     <li className="text-md">Pricing</li>
                 </ul>
             </Col>
-            <Col span={4}>
+            <Col span={24} sm={4} className="text-center mt-3 sm:mt-0 sm:text-left">
                 <h1 className="text-xl text-white font-xl">Product</h1>
                 <ul>
                     <li className="text-md">Invoicing Platform</li>
@@ -178,7 +178,7 @@ function Layout() {
                     <li className="text-md">Contacts</li>
                 </ul>
             </Col>
-            <Col span={4}>
+            <Col span={24} sm={4} className="text-center mt-3 sm:mt-0 sm:text-left">
                 <h1 className="text-xl text-white font-xl">Resources</h1>
                 <ul>
                     <li className="text-md">Proposal Template</li>
@@ -189,12 +189,12 @@ function Layout() {
             </Col>
 
         </Row>
-            <div className="flex border-t-2 border-gray-600 bg-slate-900 text-white justify-around items-center p-9">
+            <div className="sm:flex border-t-2 border-gray-600 bg-slate-900 text-white sm:justify-around items-center p-6">
                 <div>
-                <p className="m-0">2022 AR Shakir. All rights. --Privacy Policy- Terms of Services</p>
+                <p className="sm:m-0 sm:ml-0 sm:w-full w-48 ml-32">2022 AR Shakir. All rights. Privacy Policy Terms of Services</p>
                 </div>
                 <div>
-                <p className="m-0">Supported by Microsoft Startup</p>
+                <p className="sm:m-0 sm:mt-0 mt-9 sm:ml-0 sm:w-full w-48 ml-32">Supported by Microsoft Startup</p>
                 </div>
             </div>
     </div>

@@ -5,7 +5,7 @@ interface ButtonProps {
   buttonStyle: string;
 }
 
-function Button(props: ButtonProps) {
+const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
   return (
     <button className={props.buttonStyle}>
        {props.buttonText} 

@@ -23,17 +23,17 @@ const Layout: React.FC = () => {
         <NavBar />
         <Row>
             <Col span={24} sm={12}>
-                <div className="ml-12 sm:ml-44 sm:mt-12">
+                <div className="ml-4 sm:ml-44 sm:mt-12">
                     <div>
-                        <h1 className="text-4xl font-xl">Managing business <br /> payments has never <br /> been easier</h1>
+                        <h1 className="sm:text-4xl text-2xl font-xl">Managing business <br /> payments has never <br /> been easier</h1>
                         <p className="text-xl">
                             End-to-end payments and financial management <br/> in a single solution. Meet the right platform to help <br/> realize.
                         </p>
                     </div>
-                    <div className="flex flex-row">
+                    <div className="flex sm:flex-row">
                         <Button buttonStyle="justify-center text-xl w-56 h-14 font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" buttonText="Get Started" />
-                        <span className="ml-2 flex flex-col">
-                            <img src={GreenPlayIcon} alt="icon" className="w-56 h-52" />
+                        <span className="mr-2 sm:mr-0 sm:ml-2 flex flex-col">
+                            <img src={GreenPlayIcon} alt="icon" className="w-52 h-52" />
                         </span>
                     </div>
                 </div>
@@ -44,14 +44,14 @@ const Layout: React.FC = () => {
         </Row>
 
         <Row>
-            <div className="w-full"><p className="text-lg text-center">Over 32k+ software  businesses growing with AR Shakir</p></div>
+            <div className="w-full"><p className="m-9 sm:m-0 text-lg text-center">Over 32k+ software  businesses growing with AR Shakir</p></div>
             <div className="w-full grid grid-cols-2 mr-24 sm:flex items-center justify-center mb-8">
-                <img className="mt-3 ml-24 sm:w-28" src={OpenZIcon} alt="icon" />
-                <img className="mt-3 ml-24 sm:w-28" src={OracleIcon} alt="icon" />
-                <img className="mt-3 ml-24 sm:w-28" src={MorpheusIcon} alt="icon" />
-                <img className="mt-3 ml-24 sm:w-28" src={SamsungIcon} alt="icon" />
-                <img className="mt-3 ml-24 sm:w-28" src={MondayIcon} alt="icon" />
-                <img className="mt-3 ml-24 sm:w-28" src={SegmentIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={OpenZIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={OracleIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={MorpheusIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={SamsungIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={MondayIcon} alt="icon" />
+                <img className="mt-3 ml-16 w-24 sm:w-28" src={SegmentIcon} alt="icon" />
             </div>
         </Row>
 
@@ -65,7 +65,7 @@ const Layout: React.FC = () => {
                         <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-4xl font-xl font-xl mt-3">Receive payments <br/> quickly from anywhere</h1>
+                        <h1 className="sm:text-4xl text-2xl font-xl font-xl mt-3">Receive payments <br/> quickly from anywhere</h1>
                         <p className="text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
@@ -77,15 +77,15 @@ const Layout: React.FC = () => {
             </Col>
         </Row>
 
-        <Row className="ml-6 mt-6 w-11/12 sm:w-10/12 border border-solid rounded-3xl bg-gray-200 sm:ml-24">
+        <Row className="ml-6 mt-6 w-10/12 border border-solid rounded-3xl bg-gray-200 sm:ml-24">
             <Col span={24} sm={14}>
-                <div className="ml-12 sm:ml-20 mt-10">
+                <div className="ml-6 sm:ml-20 mt-10">
                     <div>
                         <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-4xl font-xl pt-9">Receive payments <br/> quickly from anywhere</h1>
-                        <p className="text-xl">
+                        <h1 className="sm:text-4xl text-2xl font-xl pt-9">Receive payments <br/> quickly from anywhere</h1>
+                        <p className="text-md sm:text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
                     </div>
@@ -129,7 +129,7 @@ const Layout: React.FC = () => {
                         <a href="#" className="text-xl">
                             OUR FEATURE
                         </a>
-                        <h1 className="text-4xl font-xl mt-3">All payments are <br/>linked to your Financy <br/>account</h1>
+                        <h1 className="sm:text-4xl text-2xl font-xl mt-3">All payments are <br/>linked to your Financy <br/>account</h1>
                         <p className="text-xl">
                             Why kept very ever home mrs. Considered sympathize ten <br/> uncommonly occasional assistance sufficient not. Letter of on <br/> become he tended active enable to. 
                         </p>
@@ -155,7 +155,7 @@ const Layout: React.FC = () => {
             </div>
         </Row>
 
-        <Row className="bg-slate-900 text-white p-16 sm:p-48 sm:pl-24 sm:pr-24">
+        <Row className="bg-slate-900 text-white p-16 sm:p-48 sm:pl-24 sm:pr-24 mt-6">
             <Col span={24} sm={12} className="mb-3 sm:mt-0">
                 <h1 className="text-xl font-xl text-white">AR SHAKIR</h1>
                 <p className="text-md text-slate-500">Yet bed any for travelling assistance indulgence unpleasing. Not <br/> thoughts all exercise blessing. Indulgence way everything joy <br/> alteration boisterous the attachment.</p>
@@ -189,12 +189,12 @@ const Layout: React.FC = () => {
             </Col>
 
         </Row>
-            <div className="sm:flex border-t-2 border-gray-600 bg-slate-900 text-white sm:justify-around items-center p-6">
+            <div className="sm:flex border-t-2 border-gray-600 bg-slate-900 text-white sm:justify-around text-center items-center p-6">
                 <div>
-                <p className="sm:m-0 sm:ml-0 sm:w-full w-48 ml-32">2022 AR Shakir. All rights. Privacy Policy Terms of Services</p>
+                <p className="sm:m-0 sm:ml-0 sm:w-full w-48 ml-20">2022 AR Shakir. All rights. Privacy Policy Terms of Services</p>
                 </div>
                 <div>
-                <p className="sm:m-0 sm:mt-0 mt-9 sm:ml-0 sm:w-full w-48 ml-32">Supported by Microsoft Startup</p>
+                <p className="sm:m-0 sm:mt-0 mt-9 sm:ml-0 sm:w-full w-48 ml-20">Supported by Microsoft Startup</p>
                 </div>
             </div>
     </div>

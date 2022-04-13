@@ -7,7 +7,7 @@ import Button from './Button'
 import IcChevronDown from '../assets/Vector 3.png'
 
 const NavBar: React.FC = () => {
-  const [showMobileNav, setShowMobileNav] = useState(true);
+  const [showMobileNav, setShowMobileNav] = useState(false);
  
   function mobileNavBarHandler() {
     setShowMobileNav(showMobileNav => !showMobileNav);
